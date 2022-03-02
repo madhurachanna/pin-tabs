@@ -1,0 +1,31 @@
+{
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "58.0a1"
+    }
+  },
+  "background": {
+      "scripts": ["utils.js", "background.js"],
+      "persistent": true
+  },
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Pin tabs",
+    "default_popup": "index.html"
+  },
+  "description": "A list of methods you can perform on a tab.",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/tabs-tabs-tabs",
+  "manifest_version": 2,
+  "name": "Pin tabs",
+  "permissions": [
+    "<all_urls>",
+    "tabs",
+    "storage",
+    "contextMenus"
+  ],
+  "icons": {
+      "24": "icon.png",
+      "48": "icon.png"
+  },
+  "version": "1.0"
+}

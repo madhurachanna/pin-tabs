@@ -1,0 +1,35 @@
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="index.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="pin-tabs-title">
+            <img src="./icon.png" alt=""/>Pin Tabs
+        </div>
+
+        <div id="pin-tabs-websites-container" class="pin-tabs-websites-container">
+        </div>
+
+        <div id="footer">
+            <div id="add-website">
+                <img src="./add.png" alt=""/>Add Website
+            </div>
+        </div>
+        <div id="websites-add-modal" class="websites-modal" style="display: none;">
+            <div id="add-website-modal-inner">
+                <img id="close-modal"  src="./close.png" alt=""/>
+                <div class="label">Name</div>
+                <input id="website-name" type="text" name="name" placeholder="Enter Name">
+                <div class="label">URL</div>
+                <input id="website-url" type="text" name="url" placeholder="Enter URL" value="http://">
+                <div id="modal-add-btn">
+                    <img class="" src="./add.png" alt=""/>Add
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script> 
+    </body>
+</html>
