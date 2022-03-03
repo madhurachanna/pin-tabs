@@ -1,11 +1,6 @@
-# tabs, tabs, tabs
+# Pin Tabs
 
 ## What it does
 
-This extension includes a browser action with a popup specified as "tabs.html".
+Helps to store and manage pinned tabs. The pinned tabs are persistent, which do not cleared on force-quit!
 
-The popup lets the user perform various simple operations using the tabs API.
-
-# What it shows
-
-Demonstration of various tabs API functions.
